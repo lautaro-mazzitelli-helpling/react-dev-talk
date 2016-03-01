@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>React Example</title>
+  <meta name="description" content="React example">
+  <meta name="author" content="Helpling GmbH">
+
+  <!-- The core React library -->
+  <script src="https://fb.me/react-0.14.7.js"></script>
+  <!-- The ReactDOM Library -->
+  <script src="https://fb.me/react-dom-0.14.7.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>
+
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <script type="text/babel">
+    var MyElement = React.createElement('p', null, 'Hello World!');
+
+    React.render(<h1>Hello World!</h1>, document.getElementById('app'));
+
+  </script>
+</body>
+</html>
